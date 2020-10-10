@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حاسبة الدرجات </title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./file.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>الحاسبة </h1>
+
+      <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
+
+      <input id="a" type="text" />
+      <input id="b" type="text" />
+      <input id="c" type="text" />
+      <input id="d" type="text" />
+
+
+      <p>مجموع درجاتك (بالأرقام) هو</p>
+      <div  id="total_grades"></div>
+
+      <p>درجتك النهائية هي (بالأحرف)</p>
+      <div id="final_grade"></div>
+      <input
+        id="submitButton"
+        type="button"
+        value="calculate"
+        onClick="submit();"
+      />
+
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
